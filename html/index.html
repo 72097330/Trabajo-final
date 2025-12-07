@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facultad de Ciencias Sociales</title>
+    <link rel="icon" type="image/png" href="/img/favicon.png"> 
+
+    <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+     
+     <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Menú principal">
+    <div class="container">
+        <a class="navbar-brand" href="/html/index.html">
+            <img src="/img/logo.png" alt="Logo de la Facultad" width="40"> Ciencias Sociales
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="/html/index.html" class="nav-link active">Inicio</a></li>
+                <li class="nav-item"><a href="/html/programa.html" class="nav-link">Programa</a></li>
+                <li class="nav-item"><a href="/html/contact.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- CARRUSEL -->
+ <div id="portadaCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item active">
+            <img src="/img/img1.jpg" class="d-block w-100" alt="Estudiantes conversando">
+        </div>
+
+        <div class="carousel-item">
+            <img src="/img/img2.jpg" class="d-block w-100" alt="Biblioteca moderna">
+        </div>
+
+        <div class="carousel-item">
+            <img src="/img/img3.jpg" class="d-block w-100" alt="Aula con laptops">
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#portadaCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#portadaCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+ </div>
+
+ <section class="container py-5">
+    <h1 class="text-center mb-3">Facultad de Ciencias Sociales</h1>
+    <p class="text-center">Formamos profesionales con compromiso social, pensamiento crítico y capacidad de investigación.</p>
+
+    <div class="text-center mt-4">
+        <a href="/html/programa.html" class="btn btn-primary btn-lg">Conocer el Programa</a>
+    </div>
+ </section>
+
+ <footer class="bg-dark text-white text-center py-3">
+     © 2025 Facultad de Ciencias Sociales
+ </footer>
+
+ <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/main.js"></script>
+
+</body>
+</html>
